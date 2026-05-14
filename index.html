@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RiderZ Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+<div class="main-container">
+
+  <nav class="header">
+    <img src="./pngwing.com.png" alt="">
+    <h3>RiderZ Hub</h3>
+    <input type="search" placeholder="Search Bikes and Brands"
+      style="margin-left: 100px;height: 40px;width: 380px;padding: 13px;border-radius: 30px;border: none;font-weight: bold;font-size: 14px;margin-top: -5px">
+
+    <ul>
+      <li> <a href="#carouselExampleFade" id="card5">Home </a></li>
+      <li> <a href="#brand" id="brands-content">Brands</a></li>
+      <li> <a href="#">Services</a></li>
+      <li> <a href="#about" id="footer">About Us</a></li>
+    </ul>
+    <i class="fa-solid fa-circle-user"
+      style="margin-left: 35px;font-size: 23px;color: white;height: 25px;margin-top: 4px;"></i>
+    <span class="log">Login/SignUp</span>
+    <i class="fa-solid fa-bars" style="margin-left: 50px;font-size: 30px;margin-top: 3px;box-sizing: border-box;color: black;"></i>
+  </nav>
+  
+  <div class="sub-head">
+    <ul>
+      <li>
+        <a href="#bike" id="bikespot">BIKES</a>
+      </li>
+      <li><a href="#scooty" id="bikespot">SCOOTERS</a></li>
+      <li class="click">
+        <a href="#">ELECTRIC TWO WHEELERS</a>
+        <ul class="dropdown">
+          <li><a href="">OLA S1X</a></li>
+          <li><a href="">TVS iQube</a></li>
+          <li><a href="">Ather Riza</a></li>
+          <li><a href="">VIDA VX2</a></li>
+          <li><a href="">Oben Rorr</a></li>
+
+        </ul>
+      </li>
+      <li><a href="#review" id="reviews">REVIEWS $ VIDEO</a></li>
+      <li><a href="#">TOOLS</a></li>
+    </ul>
+
+  </div>
+ 
+
+   
+
+  
+  <div id="carouselExampleFade" class="card5 carousel slide carousel-fade  my-5" data-bs-ride="carousel"  >
+    <div class="carousel-inner mx-5" style="width: 900px;">
+      <div class="img-fluid carousel-item active " style="height: 550px;" >
+        <img src="./electric-bike-advertisement-4.jpg " class=" d-block w-100 h-100 mx-auto" alt="...">
+      </div>
+      <div class="img-fluid carousel-item " style="height: 550px;">
+        <img src="./The-2025-Yamaha-Motorcycles-and-Scooters-Range-Updates-01.jpg" class=" d-block w-100 vh-100 mx-auto" alt="...">
+      </div>
+      <div class="img-fluid carousel-item" style="height: 550px;">
+        <img src="./a9d54d132087617.61a2089c87002.jpg" class=" d-block w-100 h-100 mx-auto" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+       <span class="fs-1 text-danger ">❮</span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="fs-1 text-danger ">❯</span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  </div>
+
+  <div class="form">
+    <form>
+      <h1>Register Your Bike</h1>
+      <label for="" style="margin-top: 20px;">Name</label><br>
+      <input type="text" placeholder="First Name" style="border-radius: 20px;padding:5px;border: none;padding-left: 15px;">
+      <input class="lastname" type="text" placeholder="Last Name" style="border-radius: 20px;padding:5px;border: none;padding-left: 15px;"><br><br>
+      <label for="">Phone Number </label><br>
+      <input type="number" placeholder="(000) 000-0000" style="border-radius: 20px;padding:5px;border: none;padding-left: 15px;"><br><br>
+      <label for="">Email</label><br>
+      <input type="text" placeholder="Enter Your Mail" style="border-radius: 20px;padding:5px;border: none;padding-left: 15px;"><br><br>
+      <label for="">Location</label><br>
+      <input type="text" style="border-radius: 20px;padding:5px;border: none;padding-left: 15px;"><br>
+      <label for="">Return to Same Location</label><br>
+      <input type="radio" checked="checked" name="radio">Yes
+      <input type="radio" checked="checked" name="radio">No <br>
+
+      <button class="btn1" style="height: 34px;width: 150px;border: none;border-radius: 30px;background-color: rgba(35, 35, 80, 0.91);color: white;margin-left: 30%;">Submit</button>
+    </form>
+
+  </div>
+
+  </div>
+
+  <div class="brands-content" style="clear: both;" id="brand"><br><br><br>
+    <h2 style="margin-left: 70px;">Explore Showroom By Brand</h2>
+    <table>
+      <tr>
+        <td>
+          <img src="./Royal-Enfield-Logo.jpg" alt="" style="height: 90px;width: 90px;margin: auto;"><br>
+          <span style="display: inline-block;margin-top: 20px;font-weight: bold;">Royal Enfield</span>
+        </td>
+        <td>
+          <img src="./ktm.webp" alt="" style="height: 90px;width: 90px;margin: auto;"><br>
+          <span style="display: inline-block;margin-top: 20px;font-weight: bold;">KTM</span>
+        </td>
+        <td>
+          <img src="./Honda.jpg" alt="" style="height: 90px;width: 90px;margin: auto;"><br>
+          <span style="display: inline-block;margin-top: 20px;font-weight: bold;">Honada</span>
+        </td>
+        <td>
+          <img src="./bmw.jpg" alt="" style="height: 90px;width: 90px;margin: auto;"><br>
+          <span style="display: inline-block;margin-top: 20px;font-weight: bold;">BMW</span>
+        </td>
+        <td>
+          <img src="./Hero.jpg" alt="" style="height: 90px;width: 90px;margin: auto;"><br>
+          <span style="display: inline-block;margin-top: 20px;font-weight: bold;">Hero</span>
+        </td>
+        <td>
+          <img src="./Kawasaki.jpg" alt="" style="height: 90px;width: 90px;margin: auto;"><br>
+          <span style="display: inline-block;margin-top: 20px;font-weight: bold;">Kawasaki</span>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <img src="./aprilla.jpg" style="height: 90px;width: 90px;margin: auto;"><br>
+          <span style="display: inline-block;margin-top: 20px;font-weight: bold;">Aprilla</span>
+        </td>
+        <td>
+          <img src="./bajaj-logo-transparent-free-png.webp" alt="" style="height: 90px;width: 90px;margin: auto;"><br>
+          <span style="display: inline-block;margin-top: 20px;font-weight: bold;">Bajaj</span>
+        </td>
+        <td>
+          <img src="./New-Ducati-Logo.png" alt="" style="height: 90px;width: 90px;margin: auto;"><br>
+          <span style="display: inline-block;margin-top: 20px;font-weight: bold;">Ducati</span>
+        </td>
+        <td>
+          <img src="./Jawa-Logo.png" alt="" style="height: 90px;width: 90px;margin: auto;"><br>
+          <span style="display: inline-block;margin-top: 20px;font-weight: bold;">Jaawa</span>
+        </td>
+        <td>
+          <img src="./Benelli-logo.jpg" alt="" style="height: 90px;width: 90px;margin: auto;"><br>
+          <span style="display: inline-block;margin-top: 20px;font-weight: bold;">Benelli</span>
+        </td>
+        <td>
+          <img src="./keeway.webp" alt="" style="height: 90px;width: 90px;margin: auto;"><br>
+          <span style="display: inline-block;margin-top: 20px;font-weight: bold;">Keeway</span>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="6" class="lastrow">
+          <a href="#">View More Brands<i class="fa-solid fa-circle-arrow-right" style="color: black;margin-left: 10px;"></i></a>
+        </td>
+        
+      </tr>
+    </table>
+
+    <h2>Best Bike Of May 2026</h2>
+    <div class="box1" style="margin-left: 15%;">
+    <div class="cardmain">
+      <img src="./bikes.jpg" alt="" style="height: 150px;width:100%;border-radius: 20px;">
+      <div class="sub-card">
+        <h4>Top Bikes In India</h4>
+        <p>Pulsar N165,Hunter 350,Classic 350,Ronin</p>
+      </div>
+    </div>
+    </div>
+
+    <div class="box1">
+    <div class="cardmain" >
+      <img src="./scooter.png" alt="" style="height: 150px;width:100%;border-radius: 20px;">
+      <div class="sub-card">
+        <h4>Top Scooters In India</h4>
+        <p>TVS iQube, Suzuki Access 125,NTORQ 125</p>
+      </div>
+    </div>
+    </div>
+
+    <div class="box1">
+    <div class="cardmain" >
+      <img src="./mialage bike.jpg" alt="" style="height: 150px;width:100%;border-radius: 20px;">
+      <div class="sub-card">
+        <h4>Top Bikes In India</h4>
+        <p>Bajaj Platina 100,Bajaj CT 100,TVS Sport</p>
+      </div>
+    </div>
+    </div>
+   <div class="ads">
+    <img src="./image logo.webp" alt="">
+
+
+   </div>
+    <div class="bikespot" id="bike">
+      <h4 style="color: white;">Bikes in Spotlight</h4>
+      
+      <div class="card-one" style="margin-left: 200px;">
+        <img src="./exterior_hero-splendor-plus-xtec_front-left-view_600x400.avif" alt="">
+        <div class="card-one2">
+          <h5>Hero Splendor Plus</h5>
+          <a href="3">+3 Variants</a><br><br>
+          <span style="margin: 0%;">*Ex-Showroom</span>
+          <span >Emi starts at</span><br>
+          <span style="margin: 0%;">₹94,656-98,656</span>
+          <span>₹3,488</span>
+          <button class="btn1">Check On-Road Price</button>
+        </div>
+      </div>
+
+      <div class="card-one">
+        <img src="./Honda sp 125.avif" alt="">
+        <div class="card-one2">
+          <h5>Honda sp 125</h5>
+          <a href="3">+5 Variants</a><br><br>
+          <span style="margin: 0%;">*Ex-Showroom</span>
+          <span >Emi starts at</span><br>
+          <span style="margin: 0%;">₹98,656-101,656</span>
+          <span>₹4,888</span>
+          <button class="btn1">Check On-Road Price</button>
+        </div>
+      </div>
+
+      <div class="card-one">
+        <img src="./bmw bike.jpg" alt="">
+        <div class="card-one2">
+          <h5>BMW M100 Xr</h5>
+          <a href="3">+4 Variants</a><br><br>
+          <span style="margin: 0%;">*Ex-Showroom</span>
+          <span >Emi starts at</span><br>
+          <span style="margin: 0%;">₹48,63,000-50,63,000</span>
+          <span>₹20,999</span>
+          <button class="btn1">Check On-Road Price</button>
+        </div>
+      </div>
+
+      <div class="card-one" style="margin-left: 200px;">
+        <img src="./Ducati panicale.avif" alt="">
+        <div class="card-one2">
+          <h5>Ducati Panicale V4</h5>
+          <a href="3">+4 Variants</a><br><br>
+          <span style="margin: 0%;">*Ex-Showroom</span>
+          <span >Emi starts at</span><br>
+          <span style="margin: 0%;">₹94,656-98,656</span>
+          <span>₹2,488</span>
+          <button class="btn1">Check On-Road Price</button>
+        </div>
+      </div>
+
+      <div class="card-one">
+        <img src="./srv-300-right-side-view-5.avif" alt="">
+        <div class="card-one2">
+          <h5>Royal Enfield srv-300</h5>
+          <a href="3">+6 Variants</a><br><br>
+          <span style="margin: 0%;">*Ex-Showroom</span>
+          <span >Emi starts at</span><br>
+          <span style="margin: 0%;">₹1,98,999-1,99,999</span>
+          <span>₹10,588</span>
+          <button class="btn1">Check On-Road Price</button>
+        </div>
+      </div>
+
+      <div class="card-one">
+        <img src="./r15_darknight.avif" alt="">
+        <div class="card-one2">
+          <h5>R15 V4</h5>
+          <a href="3">+4 Variants</a><br><br>
+          <span style="margin: 0%;">*Ex-Showroom</span>
+          <span >Emi starts at</span><br>
+          <span style="margin: 0%;">₹1,78,000-2,10,656</span>
+          <span>₹20,000</span>
+          <button class="btn1">Check On-Road Price</button>
+        </div>
+      </div>
+
+      
+
+
+    </div>
+
+    <div class="bikespot" id="scooty">
+      <h4 style="color: white;">Scooter in Spotlight</h4>
+      
+      <div class="card-one" style="margin-left: 200px;">
+        <img src="./yamaha ray 125.png" alt="">
+        <div class="card-one2">
+          <h5>Yamaha Ray 125</h5>
+          <a href="3">+3 Variants</a><br><br>
+          <span style="margin: 0%;">*Ex-Showroom</span>
+          <span >Emi starts at</span><br>
+          <span style="margin: 0%;">₹94,656-98,656</span>
+          <span>₹3,488</span>
+          <button class="btn1">Check On-Road Price</button>
+        </div>
+      </div>
+
+      <div class="card-one">
+        <img src="./Vespa-ZX-125.jpg" alt="">
+        <div class="card-one2">
+          <h5>Vespa Zx 125</h5>
+          <a href="3">+5 Variants</a><br><br>
+          <span style="margin: 0%;">*Ex-Showroom</span>
+          <span >Emi starts at</span><br>
+          <span style="margin: 0%;">₹98,656-101,656</span>
+          <span>₹4,888</span>
+          <button class="btn1">Check On-Road Price</button>
+        </div>
+      </div>
+
+      <div class="card-one">
+        <img src="./honda activa 6g.jpg" alt="">
+        <div class="card-one2">
+          <h5>Honda Activa 6g</h5>
+          <a href="3">+4 Variants</a><br><br>
+          <span style="margin: 0%;">*Ex-Showroom</span>
+          <span >Emi starts at</span><br>
+          <span style="margin: 0%;">₹48,63,000-50,63,000</span>
+          <span>₹20,999</span>
+          <button class="btn1">Check On-Road Price</button>
+        </div>
+      </div>
+
+      <div class="card-one" style="margin-left: 200px;">
+        <img src="./ather 450x.avif" alt="">
+        <div class="card-one2">
+          <h5>Ather 450x</h5>
+          <a href="3">+4 Variants</a><br><br>
+          <span style="margin: 0%;">*Ex-Showroom</span>
+          <span >Emi starts at</span><br>
+          <span style="margin: 0%;">₹94,656-98,656</span>
+          <span>₹2,488</span>
+          <button class="btn1">Check On-Road Price</button>
+        </div>
+      </div>
+
+      <div class="card-one">
+        <img src="./bajaj chetac.jpg" alt="">
+        <div class="card-one2">
+          <h5>Bajaj Chetak</h5>
+          <a href="3">+6 Variants</a><br><br>
+          <span style="margin: 0%;">*Ex-Showroom</span>
+          <span >Emi starts at</span><br>
+          <span style="margin: 0%;">₹1,98,999-1,99,999</span>
+          <span>₹10,588</span>
+          <button class="btn1">Check On-Road Price</button>
+        </div>
+      </div>
+
+      <div class="card-one">
+        <img src="./suzuki access 125.webp" alt="">
+        <div class="card-one2">
+          <h5>Suzuko Access 125</h5>
+          <a href="3">+4 Variants</a><br><br>
+          <span style="margin: 0%;">*Ex-Showroom</span>
+          <span >Emi starts at</span><br>
+          <span style="margin: 0%;">₹1,78,000-2,10,656</span>
+          <span>₹20,000</span>
+          <button class="btn1">Check On-Road Price</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews" id="review">
+      <h4>User Reviews</h4>
+      <div class="reviewbox">
+        <i class="fa-solid fa-s" style="height: 35px;width: 35px;background-color: rgb(151, 167, 225);padding: 10px;border-radius: 50px;color: white;font-weight: bolder;"></i>
+        <span>Sayan on May 10,2026</span><br>
+        <span style="margin-left: 40px;">4.6</span><i class="fa-solid fa-star" style="color: gold;"></i>
+        <i class="fa-solid fa-star" style="color: gold;"></i>
+        <h6>Yamaha Aerox dashing review</h6>
+        <p>I choose this because of the muscular looks and the bulkiness. I love the muscular looks specially this Yamaha Aerox. And the feel when you ride this giant scooter on road . Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <i class="fa-solid fa-thumbs-up" style="margin-top: 20px;margin: 5px;padding-top: 10px""></i>
+        <i class="fa-solid fa-thumbs-down" style="margin-top: 20px;margin: 5px;"></i>
+        <i class="fa-solid fa-comment-dots" style="margin-top: 20px;margin: 5px;"></i>
+      </div>
+
+      <div class="reviewbox">
+        <i class="fa-solid fa-r" style="height: 35px;width: 35px;background-color: rgb(151, 167, 225);padding: 10px;border-radius: 50px;color: white;font-weight: bolder;"></i>
+        <span>Rajat on May 06, 2026</span><br>
+        <span style="margin-left: 40px;">5.0</span><i class="fa-solid fa-star" style="color: gold;"></i>
+        <i class="fa-solid fa-star" style="color: gold;"></i>
+        <i class="fa-solid fa-star" style="color: gold;"></i>
+        <i class="fa-solid fa-star" style="color: gold;"></i>
+        <h6>Very good bike</h6>
+        <p>I choose this because of the muscular looks and the bulkiness. I love the muscular looks specially this Yamaha Aerox. And the feel when you ride this giant scooter on road . Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <i class="fa-solid fa-thumbs-up" style="margin-top: 20px;margin: 5px;padding-top: 10px""></i>
+        <i class="fa-solid fa-thumbs-down" style="margin-top: 20px;margin: 5px;"></i>
+        <i class="fa-solid fa-comment-dots" style="margin-top: 20px;margin: 5px;"></i>
+      </div>
+
+      <div class="reviewbox">
+        <i class="fa-solid fa-d" style="height: 35px;width: 35px;background-color: rgb(151, 167, 225);padding: 10px;border-radius: 50px;color: white;font-weight: bolder;"></i>
+        <span>Dharmendra on May 04, 2026</span><br>
+        <span style="margin-left: 40px;">4.3</span><i class="fa-solid fa-star" style="color: gold;"></i>
+        <h6>Smooth Ride for Long Ride</h6>
+        <p>I choose this because of the muscular looks and the bulkiness. I love the muscular looks specially this Yamaha Aerox. And the feel when you ride this giant scooter on road . Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <i class="fa-solid fa-thumbs-up" style="margin-top: 20px;margin: 5px;padding-top: 10px""></i>
+        <i class="fa-solid fa-thumbs-down" style="margin-top: 20px;margin: 5px;"></i>
+        <i class="fa-solid fa-comment-dots" style="margin-top: 20px;margin: 5px;"></i>
+      </div>
+
+      <div class="reviewbox">
+        <i class="fa-solid fa-v" style="height: 35px;width: 35px;background-color: rgb(151, 167, 225);padding: 10px;border-radius: 50px;color: white;font-weight: bolder;"></i>
+        <span>Vijay on Dec 27,2004</span><br>
+        <span style="margin-left: 40px;">4.8</span><i class="fa-solid fa-star" style="color: gold;"></i>
+        <i class="fa-solid fa-star" style="color: gold;"></i>
+        <i class="fa-solid fa-star" style="color: gold;"></i>
+        <h6>Low budget best average</h6>
+        <p>I choose this because of the muscular looks and the bulkiness. I love the muscular looks specially this Yamaha Aerox. And the feel when you ride this giant scooter on road . Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <i class="fa-solid fa-thumbs-up" style="margin-top: 20px;margin: 5px;padding-top: 10px"></i>
+        <i class="fa-solid fa-thumbs-down" style="margin-top: 20px;margin: 5px;"></i>
+        <i class="fa-solid fa-comment-dots" style="margin-top: 20px;margin: 5px;"></i>
+      </div>
+
+    </div>
+
+    <div class="footer" id="about">
+      <span style="font-size: 30px;">RiderZ Hub </span><br>
+      <span style="margin-left: 20px;margin-top: 80px;">ABOUT US</span>
+      <ul>
+        <li>Board of Directors</li>
+        <li>Leadership Team</li>
+        <li>Key Policies</li>
+        <li>Sustainability</li>
+        <li>Our Reports</li>
+      </ul>
+
+      <span style="margin-left: 20px;margin-top: 80px;">MY COLLECTION</span>
+      <ul style="margin-left: -250px;">
+        <li>Motorcycle</li>
+        <li>Scooters</li>
+        <li>Blogs</li>
+        <li>Owners's Manual</li>
+        <li>Two Wheelers Tips</li>
+        <li>Hero Goodlife</li>
+        <li>Xclan</li>
+        <li>Be a Safe Hero</li>
+        <li>Service & Maintanence</li>
+        <li>Hero Joyride</li>
+      </ul>
+
+      <span style="margin-left: 20px;margin-top: 80px;">REACH US</span>
+      <ul>
+        <li>Contact Us</li>
+        <li>Find a Dealer</li>
+        <li>corporate Enquiry</li>
+        <li>Became a Channel Partner</li>
+      </ul>
+
+      <span style="margin-left: 20px;margin-top: 80px;">NEWSROOM</span>
+      <ul>
+        <li>Media Kit</li>
+        <li>In The Press</li>
+        <li>Press Releases</li>
+      </ul>
+
+
+      <span style="margin-top: 28%;"><i class="fa-regular fa-copyright"></i>The Bike Showroom | 
+      <i class="fa-brands fa-whatsapp"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-x-twitter"></i>
+
+      </span>
+
+    </div>
+
+  </div>
+  </div>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
